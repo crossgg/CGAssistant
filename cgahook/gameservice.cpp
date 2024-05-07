@@ -7498,19 +7498,19 @@ void CGAService::WM_SendClientLogin(const char *acc, const char *pwd, int gamety
 
 	if (gametype == 4)
 	{
-		vce_connect(*g_vce_manager, 0, "221.122.119.107", 9030);
+		vce_connect(*g_vce_manager, 0, "8.138.0.215", 9030);
 	}
 	else if (gametype == 40)
 	{
-		vce_connect(*g_vce_manager, 0, "221.122.119.122", 9030);
+		vce_connect(*g_vce_manager, 0, "8.138.0.215", 9030);
 	}
 	else if (gametype == 1)
 	{
-		vce_connect(*g_vce_manager, 0, "221.122.119.144", 9030);
+		vce_connect(*g_vce_manager, 0, "8.138.0.215", 9030);
 	}
 	else if (gametype == 11)
 	{
-		vce_connect(*g_vce_manager, 0, "221.122.108.11", 9030);
+		vce_connect(*g_vce_manager, 0, "8.138.0.215", 9030);
 	}
 
 	if (gametype == 40)
