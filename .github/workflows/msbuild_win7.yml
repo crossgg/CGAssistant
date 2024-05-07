@@ -1,7 +1,12 @@
 name: MSBuild_win7
 
 on:
-  #防止fork乱用action设置只能手动触发构建
+  push:
+    tags:
+      - "v*"
+  pull_request:
+    tags:
+      - "v*"
   workflow_dispatch:
 
 env:
